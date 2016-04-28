@@ -1,6 +1,14 @@
-# Android-Tracking-SDK-Hybrid
+# Cauly 리타겟팅 Android Hybrid 연동 가이드
 
-하이브리드 앱은 앱 안에서 Webview 를 이용하여 컨텐츠를 보여주는 형식의 앱입니다. 이 경우 Cauly Tracker Native SDK 의 일부 기능을 사용하여 Webview 에 WebSDK 와 통신할 수 있는 기능을 추가해야 합니다. 
+### 개요
+하이브리드 앱은 앱 안에서 Webview 를 이용하여 컨텐츠를 보여주는 형식의 앱입니다. 
+Naver 앱, Daum 앱 등이 이 경우에 해당하며, 이 경우 Cauly Tracker Native SDK 의 일부 기능을 사용하여 앱 안의 Webview 에 Cauly 의 Tracking Web SDK 와 통신할 수 있는 기능을 추가해야 합니다. 
+본 문서는 광고주의 앱이 하이브리드 앱일 경우 Cauly 와 리타겟팅 연동을 하는 방법에 대해서 설명하는 문서입니다.
 
-- [Android SDK](https://github.com/CaulyTracker/Android-Tracking-SDK)
-- [iOS SDK](https://github.com/CaulyTracker/iOS-Tracking-SDK)
+### 문서 버전
+| 문서 버전 | 작성 날짜 | 작성자 및 내용 | 
+| ---------- | ----------- | ---------------- |
+| 1.0.0 | 2016.4.28 | 권순국(nezy at fsn.co.kr) - 초안작성 |
+
+### 연동 절차
+
