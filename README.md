@@ -35,3 +35,7 @@ Naver 앱, Daum 앱 등이 이 경우에 해당하며, 이 경우 Cauly Tracker 
 Webview web; // 앱에서 이미 만들어 사용하고 있는 Webview 가 있다고 가정하고 아래처럼 처리해준다.
 web.addJavascriptInterface(new CaulyJsInterface(web),CaulyJsInterface.CAULY_JS_INTERFACE_NAME);
 ```
+
+#### Web 연동
+Hybrid 앱의 연동은 끝났으니, 웹페이지 연동은 아래 가이드에 따른다.
+https://github.com/CaulyTracker/Retargeting
