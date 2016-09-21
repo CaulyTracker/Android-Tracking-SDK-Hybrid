@@ -27,7 +27,7 @@ Naver 앱, Daum 앱 등이 이 경우에 해당하며, 이 경우 Cauly Tracker 
 ### 연동 상세
 아래의 순서대로 연동을 시작합니다.
 
-#### Native APP SDK 연동
+#### Native APP SDK 기본 연동
 - Setting
  - proguard: https://github.com/CaulyTracker/Android-Tracking-SDK#proguard
  - AndroidManifest.xml
@@ -42,5 +42,8 @@ web.addJavascriptInterface(new CaulyJsInterface(web),CaulyJsInterface.CAULY_JS_I
 ```
 
 #### Mobile Web 연동
-Hybrid 앱의 연동은 끝났으니, 웹페이지 연동은 다음 가이드에 따릅니다.
-https://github.com/CaulyTracker/Retargeting
+아래 3가지 캠페인 중 집행 예정인 캠페인에 맞게 Mobile WEB에 tracker 스크립트를 삽입합니다.
+- [A. Feed 캠페인](https://github.com/CaulyTracker/Retargeting#a-feed-%EC%BA%A0%ED%8E%98%EC%9D%B8)
+- [B. Static 캠페인](https://github.com/CaulyTracker/Retargeting#b-static-%EC%BA%A0%ED%8E%98%EC%9D%B8)
+- [C. Install 캠페인](https://github.com/CaulyTracker/Retargeting#c-install-%EC%BA%A0%ED%8E%98%EC%9D%B8)
+
